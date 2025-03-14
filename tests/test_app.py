@@ -20,8 +20,11 @@ class TestApp:
         assert res == numbers[0]
 
     def test_student_id_calculation(self):
-    student_id_last_two_digits = 25  # Replace with your actual last two digits
-    expected_output = 9999  # Incorrect expected output to force failure
-    assert multiply_by_two(student_id_last_two_digits) == expected_output
+        student_id_last_two_digits = 25  # Keep this correct
+        expected_output = 9999  # Intentionally wrong value to force failure
+        assert multiply_by_two(student_id_last_two_digits) == expected_output
+
+
+
 
 
