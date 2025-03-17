@@ -21,8 +21,7 @@ jobs:
           python-version: "3.9.6"
 
       - name: Install Dependencies
-        run: |
-          pip install pytest
+        run: pip install pytest
 
       - name: Run Pytest
         run: pytest test_app.py
